@@ -1,0 +1,95 @@
+/*Site Wide Font Size and Family*/
+html {
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #acbfa4;
+
+}
+
+#container {
+    background-color: #e2e8ce;
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.col {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.col img {
+    width: 65%;
+}
+
+main img {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    border-top: 2px solid black;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+header h1 {
+    text-decoration: underline;
+}
+/*This is to make the site change on bigger/smaller screens when having formating already*/
+@media(min-width: 768px) /*Every screen witha width bigger than 768px will have this format*/ {
+    #container {
+        width: 85%;
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+
+    .col {
+        width: 65%;
+        margin: 20px auto;
+
+    }
+
+    .col img {
+        width: 65%;
+    }
+    main img {
+        width: 40%;
+    }
+}
+
+@media(min-width: 1024px) {
+    #flex {
+        display: flex;
+    }
+    #container {
+        width: 75%;
+    }
+    .col {
+        margin: 20px;
+    }
+    
+    .col img {
+        width: 55%;
+    }
+    main img {
+        width: 25%;
+    }
+}
