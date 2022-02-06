@@ -1,0 +1,105 @@
+body {
+    background-color: #44423C;
+    width: 98%;
+    font-size: 20px;
+    font-family: 'Supermercado One', cursive;
+}
+
+img {
+    display: block;
+    max-width: 45%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+/* Mobile Styles */ 
+
+#container {
+    background-color: #AABBBF;
+    margin: 20px;
+}
+
+header {
+    padding: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+header h1 {
+    text-align: center;
+    margin: auto;
+}
+
+header h2 {
+    text-align: center;
+}
+
+main {
+    background: #AABBBF;
+}
+
+footer {
+    padding: 20px 0 0 0;
+    padding-top: 0px;
+    text-align: left;
+    font-size: xx-small;
+    border-top: 2px solid black;
+}
+
+.col {
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid black;
+    text-align: center;
+    background-color: #BF8F84;
+}
+
+.col img {
+    max-width: 60%;
+}
+
+.col h2 {
+    text-align: center;
+}
+
+.shorse {
+    max-width: 50%;
+    margin: auto;
+}
+
+.credit {
+    text-align: center;
+    font-size: x-small;
+    padding-bottom: 10px;
+}
+
+@media(min-width: 768px) {
+        .col {
+            border-radius: 20px;
+            margin: auto auto 20px auto;
+            width: 50%;
+    }
+
+    .col img {
+        display: inline-block;
+        width: 100%;
+    }   
+
+}
+
+@media(min-width: 1024px) {
+    #flex {
+        display: flex;
+    }
+
+    .col {
+        margin: 20px;
+    }
+
+    .shorse {
+        width: 40%;
+        margin: 15px auto;
+    }
+}
