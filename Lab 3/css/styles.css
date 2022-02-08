@@ -5,6 +5,10 @@ body {
     font-family: 'Supermercado One', cursive;
 }
 
+h1, h2, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 img {
     display: block;
     max-width: 45%;
@@ -17,6 +21,7 @@ img {
 #container {
     background-color: #AABBBF;
     margin: 20px;
+    width: 90%;
 }
 
 header {
@@ -85,13 +90,20 @@ footer {
     .col img {
         display: inline-block;
         width: 100%;
-    }   
+    }  
+    #container {
+        width: 100%;
+    }
 
 }
 
 @media(min-width: 1024px) {
-    #flex {
+    .flex {
         display: flex;
+    }
+
+    #container {
+        width: 100%;
     }
 
     .col {
