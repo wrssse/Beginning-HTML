@@ -8,7 +8,7 @@
 
 <li><a href="Lab 2/index.html" target="_blank">Lab 2</a></Li>
 
-<li><a href="Lab 3/index.html" target="_blank">Lab 3</li>
+<li><a href="Lab 3/index.html" target="_blank">Lab 3</a></li>
 
 
 
