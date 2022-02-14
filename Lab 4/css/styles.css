@@ -1,11 +1,16 @@
 /* Global */
 body {
     background-color: #28363D;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 img {
     max-width: 100%;
     display: block;
+}
+
+h1, h2, h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 
@@ -70,7 +75,8 @@ nav, section, aside, .col, footer {
 h2, h3 {
     color: black;
     text-shadow: 2px 2px 2px black;
-    font-size: 1.15em;text-align: center;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 section img, aside img {
@@ -103,6 +109,32 @@ footer {
     font-size: .75em;
     margin-top: 20px;
     padding: 5px;
+}
+
+.single_col {
+    width: 82%;
+}
+
+audio, video {
+    display: block;
+    margin: 25px auto;
+    width: 75%;
+    border: 2px solid black;
+}
+
+audio {
+    border-radius: 100px;
+}
+
+.gallery_img {
+    border: 4px solid black;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 75%;
+}
+
+table {
+    display: none;
 }
 
 /* Tablet */
@@ -148,6 +180,10 @@ aside img {
     width: 78%;
     border: 4px solid black;
 }
+
+.single_col{
+    width: 93%;
+}
 }
 /* Desktop */
 
@@ -165,7 +201,7 @@ aside img {
     }
 
     nav li a {
-        margin: 0 10px;
+        margin: 10px 10px;
     }
 
     #lowerflex {
@@ -181,4 +217,28 @@ aside img {
         width: 100%;
         
     }
+
+    .single_col {
+        width: 100%;
+    }
+
+    table, tr, td {
+        border: 4px solid black;
+        padding: 10px;
+        margin: 10px auto;
+
+    }
+
+    table img {
+        width: 100%;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    table {
+        display: block;
+    }
+
 }
