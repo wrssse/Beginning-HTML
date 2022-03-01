@@ -12,5 +12,7 @@
 
 <li><a href="Lab 4/index.html" target="_blank">Lab 4</a></li>
 
+<li><a href="Final Project Official/index.html" target="_blank">Final Project</a></li>
+
 
 
