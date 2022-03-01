@@ -1,4 +1,5 @@
 {
     "editor.accessibilitySupport": "off",
-    "diffEditor.wordWrap": "on"
+    "diffEditor.wordWrap": "on",
+    "liveServer.settings.port": 5502
 }
